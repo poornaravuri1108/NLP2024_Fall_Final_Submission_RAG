@@ -1,0 +1,73 @@
+Project Description - Fall 2024
+
+
+Overview
+Each of you will be building and evaluating a Large Language Model-based Virtual Assistant (VA) on a very specific topic of your choice.  The project mimics a situation where you are asked to build a VA by your employer for a specific use case, e.g., answer customer billing questions, human resource questions, travel reimbursement questions.  This VA needs to be able to answer questions based on documents your employer has provided (as opposed to what the LLM might have learned during pre-training).
+
+
+
+Each team is expected to meet once every week for at least 30 minutes to discuss each other’s projects and provide support to each other.  Each time a different team member should be responsible for taking brief notes about what was discussed.  The notes will be submitted as part of the project deliverables.  The teams are assigned by the instructor. 
+
+As a team, you are encouraged to choose the same two LLMs for building your VA.  That way you can help each other when you run into issues.  
+
+Beyond the basic guidelines outlined below, feel free to add additional functionality and features that you are interested in exploring - you are in charge of your own learning experience!
+
+Use Cases
+Below are some sample use cases: 
+
+Business use cases:
+
+Human Resources
+Procurement
+Questions about cell phone plans
+Learning use cases:
+
+Given a set of papers on a specific topic, e.g., genetics, how can the user learn about the topic through Q&A with the VA?
+How can the user learn a new programming language?
+Public benefit use cases:
+
+Vaccinations and health questions
+Health insurance questions
+Questions about applying for federal financial aid
+Immigration and visa questions
+VA Building Process
+In order to create a VA for your use case, you will need to execute the following tasks: 
+
+Task 1: Identify the use case, the types of users that will be using the VA, and 5 typical questions that might arise.
+
+Task 2: Assemble documents for your use case that will serve to mimic your employer’s document database, and convert them to a format appropriate for Retrieval Augmented Generation (RAG).  The RAG approach involves a retrieval step where relevant passages are presented to the LLM as context, in addition to the user’s question.  
+
+Your document dataset needs to consist of documents that are able to support at least 30 questions related to your use case.  Your document corpus should consist of at least 10,000 words and ideally more.
+
+Note that:
+
+The documents should not be part of Wikipedia or other data that the LLM is already likely pre-trained on.
+
+Web scraping and document processing (e.g., extracting text from PDF files) may be required to assemble a document set for your use case.  We will have a homework assignment to help you learn how to do that.
+
+Code implementing what your proposing should not already be available online (the TAs will be comparing your project proposal to examples already available online).
+
+Task 3: Choose 2 (or more) open source LLMs to use to implement the VA and do some experiments to ensure that they can run in your environment.  The more straightforward option would be to choose smaller models that you are able to run in Colab though you can use the CMPE High Performance Cluster (HPC) if you like (please let me know if you are going to use the HPC because I need to submit a request on your behalf).
+
+Task 4: Implement your VA using each of the LLMs you have chosen, within a RAG pipeline.  
+
+Task 5: Evaluate the accuracy of your VA on 30 or more questions pertaining to your use case, and compare the performance when using the different LLMs you have chosen to use.  Think about what metrics you may want to use to evaluate VA performance and feel free to propose new metrics if applicable.
+
+Task 6: Try to improve the initial performance of your VA by changing RAG parameters, introducing prompts, auto checking and filtering or revising VA response text prior to showing it to the user, or other techniques that you deem appropriate for your use case.
+
+Task 7: Present your results (including comparison of different approaches you have tried in Task 6) and insights.  How well does the VA work for your use case?  What challenges did you face and what did you do to (try to) overcome them?
+
+Project Deliverables 
+Initial project proposal (up to 1 page).  This will allow the instructor to provide you with early feedback to ensure that you are on the right track.
+Please include details of your use case, documents that you are planning to use for RAG and their properties (format, length, how you are going to create them, e.g., web scraping, etc.), LLMs you intend to use.
+Project report (up to 3 pages, single column, 10 pt font).
+Project presentation in class during the last 2 weeks of class - 5 minutes max.
+Presentation slides.
+Python notebooks.
+Document and question datasets.
+Meeting notes, including date and time of meeting, who was present, who took notes on that date, notes from the meeting.
+Canvas assignments will be created for submitting the Project Proposal, and the other deliverables.
+
+Peer Review
+
+You will be asked to provide feedback on your teammates and how actively they participated in team discussions, and provided support to other team members.

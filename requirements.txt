@@ -1,0 +1,16 @@
+chromadb
+langchain-nvidia-ai-endpoints
+python-dotenv
+pypdf
+langchain-community
+langchain-chroma
+unstructured
+pdf2image
+pdfminer
+langchain-mistralai
+langchain-openai
+langchain-nomic
+langchain_ollama
+scikit-learn
+langchain-google-genai
+streamlit
