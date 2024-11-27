@@ -71,13 +71,13 @@ def save_data_to_db(data_chunks: List[Document], CHROMA_PATH: str):
         # )   
         # embeddings = NVIDIAEmbeddings(
         #     model="nvidia/nv-embedqa-e5-v5", 
-        #     api_key="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", 
+        #     api_key="", 
         #     truncate="NONE", 
         # ) 
 
         embeddings = NVIDIAEmbeddings(
                 model="nvidia/nv-embedqa-mistral-7b-v2", 
-                api_key="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", 
+                api_key="", 
                 truncate="NONE", 
                 )    
         
