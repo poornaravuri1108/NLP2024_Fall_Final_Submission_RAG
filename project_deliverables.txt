@@ -1,0 +1,5 @@
+Task 5: Evaluate the accuracy of your VA on 30 or more questions pertaining to your use case, and compare the performance when using the different LLMs you have chosen to use.  Think about what metrics you may want to use to evaluate VA performance and feel free to propose new metrics if applicable.
+
+Task 6: Try to improve the initial performance of your VA by changing RAG parameters, introducing prompts, auto checking and filtering or revising VA response text prior to showing it to the user, or other techniques that you deem appropriate for your use case.
+
+Task 7: Present your results (including comparison of different approaches you have tried in Task 6) and insights.  How well does the VA work for your use case?  What challenges did you face and what did you do to (try to) overcome them?
