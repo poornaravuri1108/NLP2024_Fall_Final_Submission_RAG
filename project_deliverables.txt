@@ -3,3 +3,6 @@ Task 5: Evaluate the accuracy of your VA on 30 or more questions pertaining to y
 Task 6: Try to improve the initial performance of your VA by changing RAG parameters, introducing prompts, auto checking and filtering or revising VA response text prior to showing it to the user, or other techniques that you deem appropriate for your use case.
 
 Task 7: Present your results (including comparison of different approaches you have tried in Task 6) and insights.  How well does the VA work for your use case?  What challenges did you face and what did you do to (try to) overcome them?
+
+As we are a bit behind on the material we are covering in class, we are going to have to convert some project presentation dates into lectures — some of you will have to submit your project presentations as video recordings rather than being able to present live in class.
+
